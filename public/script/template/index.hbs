@@ -1,0 +1,11 @@
+
+<input type="text" name="todo" placeholder="Todo">
+
+<ul>
+{{#each Todos}}
+    <li data-model-cid="{{this.cid}}">{{this.todo}} <a href="#remove" class="remove">remove</a></li>
+{{/each}}
+</ul>
+
+<div class="help">
+</div>
