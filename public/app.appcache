@@ -1,0 +1,27 @@
+CACHE MANIFEST
+# version 1
+
+# explicit cache
+index.html
+style/main.css
+
+FALLBACK
+/image/avatar/ image/avatar/default.jpg
+
+NETWORK:
+*
+http://*
+https://*
+
+# additional cache
+CACHE:
+script/lib/handlebars/1.0.0-rc.3/handlebars.js
+script/lib/require/2.1.5/require.min.js
+script/src/main.js
+script/src/app.js
+script/src/router.js
+script/src/text.js
+script/src/model/todo.js
+script/src/collection/todos.js
+script/src/view/todos.js
+script/src/template/todos.hbs

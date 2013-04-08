@@ -1,4 +1,4 @@
-// Filename: model/index.js
+// Filename: model/todo.js
 
 define([
     'underscore',
@@ -9,8 +9,8 @@ define([
 ){
 
     var Model = Backbone.Model.extend({
-        defaults: {
-            "name": "Guilherme Fiuza"
+		defaults: {
+            'todo': 'Blank'
         }
     });
 

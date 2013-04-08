@@ -16,7 +16,7 @@ define([
 
     // define routes
     routes = {
-        '': 'index',
+        '': 'todos',
         'help': 'help'
     };
 

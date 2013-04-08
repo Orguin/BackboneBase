@@ -1,11 +1,11 @@
-// Filename: view/index.js
+// Filename: view/todos.js
 
 define([
     'jquery',
     'underscore',
     'backbone',
-    'collection/index',
-    'text!template/index.hbs',
+    'collection/todos',
+    'text!template/todos.hbs',
     'view/help'
 ], function (
     $,

@@ -1,7 +1,7 @@
 
 <input type="text" name="todo" placeholder="Todo">
 
-<ul>
+<ul class="todos">
 {{#each Todos}}
     <li data-model-cid="{{this.cid}}">{{this.todo}} <a href="#remove" class="remove">remove</a></li>
 {{/each}}
